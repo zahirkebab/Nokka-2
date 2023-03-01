@@ -6,14 +6,13 @@
 #header{
     display: flex;
     height: 80px;
-    width: 100vw;
+    width: 100%;
     #name-container{
         margin-right: 8px;
         width: 75%;
         
     }
-    .vertical-line{
-            }
+    
 }
 
 #toolbar{
@@ -21,8 +20,23 @@
     height: 80px;
 }
 #content{
-    width: 75vw;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    // #description-container{
+    //     width: 25%;
+    // }
+
+    #carousel-container{
+        width: 100%;
+        margin: 0px
+    }
 }
 #button-wrapper{
     display: flex;
+}
+
+#carousel{
+    display: block;
+    
 }
